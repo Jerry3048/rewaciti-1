@@ -99,7 +99,7 @@ function PropertySection() {
           
           <button
             onClick={() => setShowAll(!showAll)}
-            className="text-[#703BF7] border border-[#703BF7] px-4 py-2 rounded hover:bg-[#703BF7] hover:text-white transition text-center w-[120px] md:hidden"
+            className="text-[#703BF7] border border-[#703BF7] px-4 py-2 rounded hover:bg-[#703BF7] hover:text-white transition text-center w-30 md:hidden"
           >
             {showAll ? "Show Less" : "View All"}
           </button>
